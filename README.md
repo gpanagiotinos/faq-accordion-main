@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://gpanagiotinos.github.io/faq-accordion-main/)
+- Solution URL: [Solution](https://github.com/gpanagiotinos/faq-accordion-main)
 - Live Site URL: [Site Url](https://gpanagiotinos.github.io/faq-accordion-main/)
 
 ## My process
