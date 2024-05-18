@@ -4,14 +4,16 @@ const onClickArticle = (clickedArticleId, event) => {
     const articleEl = document.getElementById(articleId);
     const currentClass = articleEl.className.split(" ");
     if (clickedArticleId === articleId) {
-        if (currentClass.indexOf("hidden") < 0) {
-            articleEl.classList.add('hidden')
-        } else {
-            articleEl.classList.remove('hidden')
-        }
+      if (currentClass.indexOf("hidden") < 0) {
+        articleEl.classList.add("hidden", "switch-to-plus-icon");
+      } else {
+        articleEl.classList.remove("hidden");
+        articleEl.classList.add("switch-to-minus-icon");
+      }
     } else {
       if (currentClass.indexOf("hidden") < 0) {
-        articleEl.classList.add('hidden')
+        articleEl.classList.add("hidden", "switch-to-plus-icon");
+        articleEl.classList.remove("switch-to-minus-icon");
       }
     }
   });
